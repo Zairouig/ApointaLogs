@@ -21,6 +21,8 @@ Password reset directly from the customer portal `/my-reservations`.
 Preformulovanie plánov a popisov funkcií na hlavnej stránke.
 Reformulated plan descriptions and feature copy on the main page.
 
+### Autoscroll po výbere času /  Autoscroll after time slot have been chosen
+
 ---
 
 ## 🟡 Nové funkcie / New Features

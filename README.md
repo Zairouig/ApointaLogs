@@ -1,13 +1,13 @@
 # Apointa v1.2 — Upcoming / Pripravujeme
 
-**Plánované vydanie / Planned release:** Máj 2026
+**Plánované vydanie / Planned release:** Soon
 
 ---
 
-## 🟢 Quick Wins
+## 🟢 Quick Implementations
 
 ### Branded sender email
-Emaily budú chodiť od `fordiiik@apointa.sk` namiesto `noreply@apointa.sk`.
+Emaily budú chodiť od `barber@apointa.sk` namiesto `noreply@apointa.sk`.
 Provider si nastaví meno odosielateľa v dashboarde.
 
 Emails will be sent from `businessname@apointa.sk` instead of `noreply@apointa.sk`.

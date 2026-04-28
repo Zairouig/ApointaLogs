@@ -1,4 +1,4 @@
-# Apointa v1.2 — Upcoming / Pripravujeme
+# Apointa v1.12 — Upcoming / Pripravujeme
 
 **Plánované vydanie / Planned release:** Soon
 

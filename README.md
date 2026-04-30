@@ -1,41 +1,54 @@
-# Apointa v1.13 — Upcoming / Pripravujeme
+# Apointa v1.14 — Upcoming / Pripravujeme
 
-**Plánované vydanie / Planned release:** Until 8.5.2026
+v1.14 — Statistics & Analytics
+Plánované vydanie: Máj 2026 / May 2026
 
-SK:
+###SK:
 
-## v1.13 — Upcoming
-### 🎫 Google Wallet redesign
-Nový dizajn pass karty pre Google Wallet. Lepší branding, vizuálne vylepšenia a plné testovanie cez Google Wallet API ktoré nám bolo nedávno povolené.
+###📊 Analytics modul — MVP
+Dashboard overview s kľúčovými metrikami pre každú prevádzku. Prvá fáza pokrýva:
+MVP scope:
 
-### ⚠️ Expiration smart reminders
-Inteligentné pripomienky počas grace periody pri neúspešnej platbe:
+Prehľad (tržby, rezervácie, noví klienti, obsadenosť)
+Rezervácie (trend, zrušenia, no-show rate)
+Tržby (graf podľa dní/týždňov/mesiacov)
+Klienti (nový vs. opakovaní, top klienti)
+Služby (najpopulárnejšie, priemerná hodnota)
+Zamestnanci (výkon, obsadenosť)
+Export CSV
 
-Deň 2: pripomienka — „aby si nestratil prístup k PRO funkciám"
-Deň 5: zvýšená urgencia — „už len 2 dni"
-Deň 6: posledná šanca — „zachovaj svoje dáta bez obmedzení"
+Neskôr (Growth/Enterprise):
 
-Kanály: email + in-app notifikácia.
+Heatmapy obsadenosti
+Marketingové zdroje
+Dochádzka
+Loyalty / voucher / eshop metriky
+XLSX/PDF export
+Vlastné reporty
 
-### 🌐 Informational webs
-Verejné informačné stránky pre každý vertical vysvetľujúce čo Apointa ponúka — prehľad funkcií, zákaznický portál, a ako platforma funguje pre rôzne typy podnikov.
+Funkcie rozdelené podľa plánov: Free / Starter / Growth / Enterprise.
 
-EN:
+### EN:
 
-## v1.13 — Upcoming
-### 🎫 Google Wallet redesign
-New pass card design for Google Wallet. Improved branding, visual enhancements, and full testing via the Google Wallet API which was recently enabled for our account.
+###📊 Analytics module — MVP
+Dashboard overview with key metrics for each location. First phase covers:
+MVP scope:
 
-### ⚠️ Expiration smart reminders
-Smart reminders during the grace period after a failed payment:
+Overview (revenue, bookings, new clients, occupancy)
+Bookings (trend, cancellations, no-show rate)
+Revenue (chart by day/week/month)
+Clients (new vs. returning, top clients)
+Services (most popular, average value)
+Staff (performance, occupancy)
+CSV export
 
-Day 2: reminder — "so you don't lose access to PRO features"
-Day 5: increased urgency — "only 2 days left"
-Day 6: last chance — "keep your data without restrictions"
+Later (Growth/Enterprise):
 
-Channels: email + in-app notification.
+Occupancy heatmaps
+Marketing sources
+Attendance tracking
+Loyalty / voucher / eshop metrics
+XLSX/PDF export
+Custom reports
 
-### 🌐 Informational webs
-Public informational pages for each vertical explaining what Apointa offers — feature overview, customer portal, and how the platform works for different types of businesses.
-
-*Poradie a dátumy sa môžu zmeniť podľa spätnej väzby. / Order and dates subject to change based on feedback.*
+Features gated by plan: Free / Starter / Growth / Enterprise.

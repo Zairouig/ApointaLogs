@@ -1,54 +1,47 @@
-# Apointa v1.14 — Upcoming / Pripravujeme
+v1.15 — Communication, Sharing & QR
+Plánované vydanie: Jún 2026
 
-v1.14 — Statistics & Analytics
-Plánované vydanie: Máj 2026 / May 2026
+### 📧 Mailing & komunikácia (Growth)
+Možnosť posielať emaily zákazníkom priamo z dashboardu. Dva módy:
+Mass mailing — broadcast všetkým alebo filtrovanému segmentu zákazníkov (noví, vracajúci sa, neaktívni, podľa služby...). Inšpirácia z ZCRM implementácie.
+Individuálny email — z CRM/customer detail poslať email konkrétnemu zákazníkovi. Predpripravené šablóny + vlastný text.
+Resend voucher — provider môže z gift card orders znova poslať voucher zákazníkovi na email jedným kliknutím.
+Len pre Growth plán.
 
-###SK:
+### 📱 Quick Share — Apointa Link
+Generátor zdieľacích kariet pre Instagram/Facebook Stories a Feed — Spotify Wrapped štýl.
+Provider klikne "Share on socials" → vygeneruje sa vizuálne pekná karta s ich Apointa linkom, názvom prevádzky a QR kódom. Pripravená na priame stiahnutie a zdieľanie na sociálnych sieťach. Viacero predpripravených dizajnov/šablón.
 
-###📊 Analytics modul — MVP
-Dashboard overview s kľúčovými metrikami pre každú prevádzku. Prvá fáza pokrýva:
-MVP scope:
+### 🖨️ QR kód & PDF tlač
+Revolut štýl QR kód — logo prevádzky v strede QR kódu, pod tým "Apointa" branding.
+Dva formáty na stiahnutie:
 
-Prehľad (tržby, rezervácie, noví klienti, obsadenosť)
-Rezervácie (trend, zrušenia, no-show rate)
-Tržby (graf podľa dní/týždňov/mesiacov)
-Klienti (nový vs. opakovaní, top klienti)
-Služby (najpopulárnejšie, priemerná hodnota)
-Zamestnanci (výkon, obsadenosť)
-Export CSV
+A4 PDF — na vytlačenie a vylepenie pri pokladni / vstupe
+10×10 cm — malý formát na stoly, vizitky, samolepky
 
-Neskôr (Growth/Enterprise):
+Rýchly copy Apointa linku priamo z dashboardu — jedno kliknutie.
 
-Heatmapy obsadenosti
-Marketingové zdroje
-Dochádzka
-Loyalty / voucher / eshop metriky
-XLSX/PDF export
-Vlastné reporty
+EN:
 
-Funkcie rozdelené podľa plánov: Free / Starter / Growth / Enterprise.
+v1.15 — Communication, Sharing & QR
+Planned release: June 2026
 
-### EN:
+### 📧 Mailing & communication (Growth)
+Send emails to customers directly from the dashboard. Two modes:
+Mass mailing — broadcast to all or a filtered customer segment (new, returning, inactive, by service...). Inspired by ZCRM implementation.
+Individual email — send an email to a specific customer from CRM/customer detail. Pre-built templates + custom text.
+Resend voucher — provider can resend a voucher to the customer's email with one click from gift card orders.
+Growth plan only.
 
-###📊 Analytics module — MVP
-Dashboard overview with key metrics for each location. First phase covers:
-MVP scope:
+### 📱 Quick Share — Apointa Link
+Share card generator for Instagram/Facebook Stories and Feed — Spotify Wrapped style.
+Provider clicks "Share on socials" → a visually appealing card is generated with their Apointa link, business name and QR code. Ready to download and share directly on social media. Multiple pre-built designs/templates.
 
-Overview (revenue, bookings, new clients, occupancy)
-Bookings (trend, cancellations, no-show rate)
-Revenue (chart by day/week/month)
-Clients (new vs. returning, top clients)
-Services (most popular, average value)
-Staff (performance, occupancy)
-CSV export
+### 🖨️ QR Code & PDF print
+Revolut-style QR code — business logo in the center of the QR code, "Apointa" branding below.
+Two downloadable formats:
 
-Later (Growth/Enterprise):
+A4 PDF — for printing and posting at the counter / entrance
+10×10 cm — small format for tables, business cards, stickers
 
-Occupancy heatmaps
-Marketing sources
-Attendance tracking
-Loyalty / voucher / eshop metrics
-XLSX/PDF export
-Custom reports
-
-Features gated by plan: Free / Starter / Growth / Enterprise.
+Quick copy of Apointa link directly from the dashboard — one click.

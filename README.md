@@ -25,6 +25,7 @@ Poradie vydania závisí od externých závislostí
 
 
 ###Apointa v1.52 — Release Notes (No specific date stated)
+
 EN:
 ##🔜 Upcoming Features
 #Autoform IČO — Slovensko.Digital

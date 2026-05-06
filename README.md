@@ -1,4 +1,4 @@
-###Apointa v1.52 — Release Notes (Nebol stanovený dátum)
+###Apointa v1.62 — Release Notes (Nebol stanovený dátum)
 SK:
 
 ##🔜 Nadchádzajúce funkcie
@@ -24,7 +24,7 @@ Automatické pridanie do Apple Calendar po potvrdení rezervácie
 Poradie vydania závisí od externých závislostí 
 
 
-###Apointa v1.52 — Release Notes (No specific date stated)
+###Apointa v1.62 — Release Notes (No specific date stated)
 
 EN:
 ##🔜 Upcoming Features

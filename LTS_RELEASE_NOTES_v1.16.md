@@ -15,7 +15,7 @@ Toto je **najväčší update fakturácie v histórii Apointa.** Starý systém 
 
 ### ✨ Nové funkcie
 
-- **Nový formulár faktúry** — štruktúra inšpirovaná FakturaOnline.sk, sekcie: Faktúra → Nastavenie → Dodávateľ → Odberateľ → Položky
+- **Nový formulár faktúry** sekcie: Faktúra → Nastavenie → Dodávateľ → Odberateľ → Položky
 - **Dynamické položky faktúry** — neobmedzený počet riadkov, každý s vlastnou:
   - _Jednotkovou cenou_, _množstvom_, _mernou jednotkou_
   - _Sadzbou DPH_ (0 % / 5 % / 10 % / 19 % / 20 % / 23 % / vlastná)
@@ -121,7 +121,7 @@ This is the **biggest invoicing update in Apointa's history.** The old system ha
 
 ### ✨ New Features
 
-- **New invoice form** — structure inspired by FakturaOnline.sk, sections: Invoice → Settings → Supplier → Customer → Line Items
+- **New invoice form**sections: Invoice → Settings → Supplier → Customer → Line Items
 - **Dynamic line items** — unlimited rows, each with:
   - _Unit price_, _quantity_, _unit of measure_
   - _VAT rate_ (0% / 5% / 10% / 19% / 20% / 23% / custom)

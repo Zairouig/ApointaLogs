@@ -11,8 +11,6 @@
 
 ## 🧾 Fakturačný systém — kompletný remake
 
-Toto je **najväčší update fakturácie v histórii Apointa.** Starý systém bol vyhodený a nahradený kompletne novým, postaveným od základov.
-
 ### ✨ Nové funkcie
 
 - **Nový formulár faktúry** sekcie: Faktúra → Nastavenie → Dodávateľ → Odberateľ → Položky
@@ -57,24 +55,6 @@ Toto je **najväčší update fakturácie v histórii Apointa.** Starý systém 
 - Kompletné translation keys pre **SK, CS, EN, DE, UK**
 - PDF faktúra podporuje všetkých 5 jazykov
 
-### ⚙️ Technické zmeny
-
-- Nová tabuľka `invoices` v databáze (Supabase) s RLS
-- Nová tabuľka `invoice_numbers` pre atomické číslovanie (PostgreSQL RPC)
-- PDF generovanie cez `pdf-lib` (zahodený `@react-pdf/renderer` — nekompatibilný s React 19)
-- Upload PDF do Supabase Storage s podpísanými URL (`~1 rok` platnosť)
-- Správny súbor `apointa_{číslo_faktúry}.pdf` pri stiahnutí
-
----
-
-## 🔒 Feature Gate — upgrade screen
-
-- **Nový `UpgradeRequired` komponent** — dvojstĺpcový dizajn inšpirovaný moderným SaaS upsell patternom
-- Ľavá strana: feature bullets špecifické pre danú uzamknutú funkciu
-- Pravá strana: aktuálny plán + odporúčaný plán s obsahom
-- Plne lokalizovaný do všetkých 5 jazykov
-- Používa sa pre: Fakturáciu (Starter+) a Pokročilé štatistiky (Growth+)
-
 ---
 
 ## 📊 Pokročilé štatistiky — feature gate
@@ -86,26 +66,6 @@ Toto je **najväčší update fakturácie v histórii Apointa.** Starý systém 
 
 ## 🛠 Opravy a vylepšenia
 
-- **IBAN input** — automatické formátovanie po 4 znakoch (napr. `SK75 0200 0000 ...`), stripnutie medzier pred QR generovaním
-- **Pay by Square** — opravený `beneficiary.name` required error, správne stripnutie medzier z IBAN
-- **Invoice séria** — opravený bug `2026[object Object]` pri generovaní čísla faktúry
-- **Booking prefill** — opravený bug kde URL params sa nenačítali do formulára (separátny `useEffect`)
-- **Upgrade redirect 404** — nahradený `redirect('/dashboard/upgrade')` za nový `UpgradeRequired` komponent
-
----
-
-## 📦 Závislosti
-
-| Balík | Zmena |
-|-------|-------|
-| `@react-pdf/renderer` | ❌ Odinštalovaný (React 19 incompatible) |
-| `bysquare` | ✅ Pridaný — Pay by Square QR |
-| `qrcode` | ✅ Pridaný — QR PNG generovanie |
-| `i18next-http-backend` | ⬆️ Update na `3.0.6` (security fix) |
-| `uuid` | ⬆️ Update na `11.1.1` (security fix) |
-
----
-
 ---
 
 # 🇬🇧 Apointa v1.16 — English
@@ -116,8 +76,6 @@ Toto je **najväčší update fakturácie v histórii Apointa.** Starý systém 
 ---
 
 ## 🧾 Invoicing System — Complete Rebuild
-
-This is the **biggest invoicing update in Apointa's history.** The old system has been completely replaced with a brand new one built from scratch.
 
 ### ✨ New Features
 
@@ -163,24 +121,6 @@ This is the **biggest invoicing update in Apointa's history.** The old system ha
 - Complete translation keys for **SK, CS, EN, DE, UK**
 - PDF invoice supports all 5 languages
 
-### ⚙️ Technical Changes
-
-- New `invoices` table in the database (Supabase) with RLS
-- New `invoice_numbers` table for atomic numbering (PostgreSQL RPC)
-- PDF generation via `pdf-lib` (dropped `@react-pdf/renderer` — incompatible with React 19)
-- Upload PDF to Supabase Storage with signed URLs (`~1 year` validity)
-- Correct filename `apointa_{invoice_number}.pdf` on download
-
----
-
-## 🔒 Feature Gate — Upgrade Screen
-
-- **New `UpgradeRequired` component** — two-column design inspired by modern SaaS upsell patterns
-- Left side: feature bullets specific to the locked feature
-- Right side: current plan + recommended plan with included features
-- Fully localized into all 5 languages
-- Used for: Invoicing (Starter+) and Advanced Analytics (Growth+)
-
 ---
 
 ## 📊 Advanced Analytics — Feature Gate
@@ -191,24 +131,6 @@ This is the **biggest invoicing update in Apointa's history.** The old system ha
 ---
 
 ## 🛠 Bug Fixes & Improvements
-
-- **IBAN input** — auto-formatting every 4 characters (e.g. `SK75 0200 0000 ...`), whitespace stripped before QR generation
-- **Pay by Square** — fixed `beneficiary.name` required error, correct whitespace stripping from IBAN
-- **Invoice series** — fixed `2026[object Object]` bug in invoice number generation
-- **Booking prefill** — fixed bug where URL params weren't loaded into the form (separate `useEffect`)
-- **Upgrade redirect 404** — replaced `redirect('/dashboard/upgrade')` with new `UpgradeRequired` component
-
----
-
-## 📦 Dependencies
-
-| Package | Change |
-|---------|--------|
-| `@react-pdf/renderer` | ❌ Removed (React 19 incompatible) |
-| `bysquare` | ✅ Added — Pay by Square QR |
-| `qrcode` | ✅ Added — QR PNG generation |
-| `i18next-http-backend` | ⬆️ Updated to `3.0.6` (security fix) |
-| `uuid` | ⬆️ Updated to `11.1.1` (security fix) |
 
 ---
 
